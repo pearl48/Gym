@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">Gym</h1>
+            <nav class="navbar">
+                <button class="button" onclick="navigateTo('#features')">Features</button>
+                <button class="button" onclick="navigateTo('#diet-plans')">Diet Plans</button>
+                <button class="button" onclick="navigateTo('#workout-plans')">Workout Plans</button>
+                <button class="button" onclick="navigateTo('#blogs')">Blogs</button>
+                <button class="button" onclick="navigateTo('#faq')">FAQ</button>
+                <button class="button" onclick="navigateTo('#contact')">Contact Us</button>
+                <button class="button primary" onclick="navigateTo('#get-started')">Get Started</button>
+                <button class="button secondary" onclick="navigateTo('#login')">Login</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Homepage content -->
+        <section id="home" class="section visible">
+          <blockquote class="quote">
+            <cite>"Fitness is not about being better than someone else; <br> it's about being better than you used to be."</cite>
+          </blockquote>
+        <blockquote class="quote">
+         <cite>"Go the extra miles, it never crowded"</cite>
+        </blockquote>
+      <blockquote class="quote">
+       <cite>"consistency is key, it's ok to take a break"</cite>
+    </blockquote>
+    <blockquote class="quote">
+    <cite>"Make it happen, we got you all the way"</cite><br>
+     </blockquote>  
+          
+        </section>
+
+        <!-- Hidden sections -->
+        <section id="features" class="section hidden">
+            <h2>Features</h2>
+            <p>Explore our state-of-the-art gym features designed to keep you motivated and achieving your goals.</p>
+        </section>
+        <section id="diet-plans" class="section hidden">
+            <h2>Diet Plans</h2>
+            <p>Customized diet plans to suit your fitness goals, from weight loss to muscle gain.</p>
+        </section>
+        <section id="workout-plans" class="section hidden">
+            <h2>Workout Plans</h2>
+            <p>Discover our professionally designed workout plans to meet your fitness objectives.</p>
+        </section>
+        <section id="blogs" class="section hidden">
+            <h2>Blogs</h2>
+            <p>Read inspiring stories and get expert advice from our trainers.</p>
+        </section>
+        <section id="faq" class="section hidden">
+            <h2>FAQ</h2>1
+            <p>Find answers to common questions about our services and facilities.</p>
+        </section>
+        <section id="contact" class="section hidden">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Get in touch with us for any inquiries.</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Premium Gym Website. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
